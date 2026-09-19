@@ -9,13 +9,21 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "client-only": "^0.0.1",
+    "esbuild": "^0.28.2",
+    "lucide-react": "^1.47.0",
+    "mermaid": "^12.0.0",
     "next": "16.3.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1",
+    "shiki": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^24.13.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
